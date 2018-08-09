@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Date algorithm</title>
+  </head>
+  <body>
+      <div class="container">
+                <div class="jumbotron text-center">
+					<h1 class="display-2">Date algorithm</h1>
+                    <h2>Survey Questions</h2>
+                    <hr>
+                    <p>Note: Your data is being sold to the Russians for exploitation.</p>
+                </div>
+                <form>
+                <b>
+                    <h1>About You</h1>
+                    <hr>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"><h2>Full Name:</h2></label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                      </div>
+                    <h4>Upload a Pic of Yourself</h4>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Max size 3mb</label>
+                        <input type="file" class="form-control-file" id="picture" required>
+                    </div>
+                    <div class="form-group">
+                            <h4>Gender</h4>
+                            <select class="form-control" id="gender">
+                                <option></option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    <div class="form-group">
+                        <h4>Sexual Orientation</h4>
+                        <select class="form-control" id="orientation">
+                            <option></option>
+                            <option>Heterosexual</option>
+                            <option>Gay</option>
+                            <option>I like Everyone</option>
+                        </select>
+                    </div>
+                    <hr>    
+                </b>
+                    <div class="form-group">
+                        <h4>Question 1</h4>
+                        <label for="exampleFormControlSelect1">How Important are looks in a partner?</label>
+                        <select class="form-control" id="q1">
+                            <option></option>
+                            <option>1 (Important)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Not Important)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 2</h4>
+                        <label for="exampleFormControlSelect1">How Important is height in a partner?</label>
+                        <select class="form-control" id="q2">
+                            <option></option>
+                            <option>1 (Important)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Not Important)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 3</h4>
+                        <label for="exampleFormControlSelect1">How Important is ambition?</label>
+                        <select class="form-control" id="q3">
+                            <option></option>    
+                            <option>1 (Important)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Not Important)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 4</h4>
+                        <label for="exampleFormControlSelect1">How Important is money?</label>
+                        <select class="form-control" id="q4">
+                            <option></option>
+                            <option>1 (Important)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Not Important)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 5</h4>
+                        <label for="exampleFormControlSelect1">How Important are politics?</label>
+                        <select class="form-control" id="q5">
+                            <option></option>
+                            <option>1 (Important)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Not Important)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 6</h4>
+                        <label for="exampleFormControlSelect1">How much do you like dogs?</label>
+                        <select class="form-control" id="q6">
+                            <option></option>
+                            <option>1 (Love them)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Eww Gross)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 7</h4>
+                        <label for="exampleFormControlSelect1">How much do you like cats?</label>
+                        <select class="form-control" id="q7">
+                            <option></option>
+                            <option>1 (Love them)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Eww Gross)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 8</h4>
+                        <label for="exampleFormControlSelect1">Do you like to travel?</label>
+                        <select class="form-control" id="q8">
+                            <option></option>
+                            <option>1 (As much as I can)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (Whenever possible I try to avoid leaving my house)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 9</h4>
+                        <label for="exampleFormControlSelect1">Are you religious?</label>
+                        <select class="form-control" id="q9">
+                            <option></option>
+                            <option>1 (I have seen god)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (lol, We're still believing in those ideas?)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h4>Question 10</h4>
+                        <label for="exampleFormControlSelect1">What is more important in food, portion size or taste?</label>
+                        <select class="form-control" id="q10">
+                            <option></option>
+                            <option>1 (taste is king of all foods)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5 (More food for less money is a win in my book)</option>
+                        </select>
+                    </div>                  
+                </form>
+                <hr>
+				<div class="footer">
+					<a href="url">API Friends List</a> |
+					<a href="url">Github Repository</a>
+                </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

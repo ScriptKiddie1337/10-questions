@@ -1,0 +1,26 @@
+{
+  "name": "10-questions",
+  "version": "1.0.0",
+  "description": "Streamlined Dating App (Look out Zuckerberg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScriptKiddie1337/4-questions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScriptKiddie1337/4-questions/issues"
+  },
+  "homepage": "https://github.com/ScriptKiddie1337/4-questions#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
